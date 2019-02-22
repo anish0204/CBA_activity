@@ -2,7 +2,7 @@
 
 int main()
 {
-int a,b=10;
+int a=25,b=10;
 int c,k=0,*ptr;
 const int arr[3] = {5,9,4,2};
 c=a+b;
