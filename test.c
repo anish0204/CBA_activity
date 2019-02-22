@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{
+int a,b=10;
+int c,k=0,*ptr;
+const int arr[3] = {5,9,4,2};
+c=a+b;
+read = k++*k++*k++;
+printf("Read Value = %d",k);
+ptr=fetch();
+printf("Ponter Value = %d",*ptr);
+printf("Array Value = %d",arr);
+}
+
+int* fetch()
+{
+int val;
+val = 100;
+return&val;
+}
