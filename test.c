@@ -4,7 +4,7 @@ int main()
 {
 int a=25,b=10;
 int c,k=0,*ptr;
-const int arr[3] = {5,9,4,2};
+int arr[3] = {5,9,4,2};
 c=a+b;
 read = k++*k++*k++;
 printf("Read Value = %d",k);
