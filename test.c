@@ -18,5 +18,5 @@ int* fetch()
 {
 int val;
 val = 100;
-return &val;
+return val;
 }
