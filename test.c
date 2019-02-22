@@ -11,12 +11,12 @@ printf("Read Value = %d",k);
 ptr=fetch();
 printf("Addition = %d",c);
 printf("Ponter Value = %d",*ptr);
-printf("Array Value = %d",arr);
+printf("Array Value = %d",arr[1]);
 }
 
 int* fetch()
 {
 int val;
 val = 100;
-return&val;
+return &val;
 }
