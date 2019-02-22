@@ -9,6 +9,7 @@ c=a+b;
 read = k++*k++*k++;
 printf("Read Value = %d",k);
 ptr=fetch();
+printf("Addition = %d",c);
 printf("Ponter Value = %d",*ptr);
 printf("Array Value = %d",arr);
 }
